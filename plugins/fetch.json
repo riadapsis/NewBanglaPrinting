@@ -1,0 +1,43 @@
+{
+    "cordova-plugin-datecs-printer-qr": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-datecs-printer-qr"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@1.1.6"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@4.0.3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@2.2.3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-bluetooth-printer": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CesarBalzer/Cordova-Plugin-Bluetooth-Printer.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
