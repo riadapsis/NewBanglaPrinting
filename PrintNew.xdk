@@ -1,0 +1,287 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
+      "projectGuid": "452992bd-1884-48cf-8dd0-4cea41c2aff3",
+      "lastModifiedDate": 1507442982038,
+      "creationDate": 1507372296020
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [],
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-statusbar",
+        "version": "2.2.3",
+        "originType": "cordova.io",
+        "selectedState": "Included",
+        "name": "StatusBar",
+        "origin": "cordova-plugin-statusbar",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "dce6a9fb",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "Cordova StatusBar Plugin"
+      },
+      {
+        "id": "cordova-plugin-device",
+        "version": "1.1.6",
+        "selectedState": "Included",
+        "originType": "cordova.io",
+        "name": "Device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "f347c2e6",
+        "gitref": "",
+        "description": "Cordova Device Plugin",
+        "cordovaVersion": ">=3.0.0"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "version": "4.0.3",
+        "selectedState": "Included",
+        "originType": "cordova.io",
+        "name": "Splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "77dd2a16",
+        "gitref": "",
+        "description": "Cordova Splashscreen Plugin",
+        "cordovaVersion": ">=3.0.0"
+      },
+      {
+        "id": "cordova-plugin-bluetooth-printer",
+        "name": "BluetoothPrinter",
+        "version": "0.0.1-dev",
+        "originType": "repo",
+        "origin": "https://github.com/CesarBalzer/Cordova-Plugin-Bluetooth-Printer.git",
+        "gitref": "",
+        "subdir": ".",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-bluetooth-printer",
+        "selectedState": "Included",
+        "checksum": "bedb4969",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "author": "Syed Rehanuddin",
+        "permissions": {
+          "android:name": [
+            "android.permission.BLUETOOTH"
+          ]
+        },
+        "description": "A cordova plugin for bluetooth printer for android platform, which support text printing and POS printing.",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "19",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "Fullscreen": false,
+          "Orientation": "portrait",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "certificateId_": "cDRooKa-I0WjXusAb_e2Jw2",
+        "cordovaCLIVersion_": "6.5.0",
+        "crosswalkVersion_": "23",
+        "appName_": "PrintNew",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "market:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK",
+        "signed_": true
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "exit-on-suspend": false,
+          "deployment-target": "8.0",
+          "ios-configuration": "adhoc",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": false,
+        "certificateId_": "Szry_OasIU6Yyt-q3PBboA2",
+        "cordovaCLIVersion_": "6.5.0",
+        "crosswalkVersion_": "23",
+        "appName_": "PrintNew",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*",
+            "itms:*",
+            "itms-apps:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": false,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.5.0",
+        "crosswalkVersion_": "23",
+        "appName_": "PrintNew",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [
+            "http://*/*",
+            "https://*/*",
+            "tel:*",
+            "sms:*",
+            "mailto:*",
+            "geo:*"
+          ],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "Intel XDK Template",
+        "appID_": "xdk.intel.template",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appName_": "PrintNew",
+        "appID_": "xdk.intel.template",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Intel XDK template",
+        "appAuthor_": "Intel XDK"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "testDirectory": "test"
+  }
+}
